@@ -31,7 +31,7 @@ console.log(a); // 51
 
 ## Project
 
- https://github.com/Faratora/stepik
+ [CV](https://faratora.github.io/rsschool1-cv/cv)
 
 ## Education and completed courses
 
