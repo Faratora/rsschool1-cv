@@ -14,3 +14,18 @@ I became interested in frontend development a year ago. I like to program and se
 
 Hardworking, purposeful, disciplined. The goal is to master frontend and backend development, to develop turnkey websites.Freelance work is a priority. There is no work experience.
 
+##  Skills
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Development Tools:** Git, GitHub, Visual Studio Code, Photoshop
+
+
+##  Code examples:
+
+
+```
+let a = '5' + '1';
+
+console.log(a); // 51
+```
+
