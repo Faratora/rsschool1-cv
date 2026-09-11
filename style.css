@@ -1,0 +1,166 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; /* плавная прокрутка по якорям */
+}
+
+body {
+font-family: "Roboto", sans-serif;
+background-color: #f0fdf4;
+width: 960px;
+margin: 10px auto;
+}
+
+/* header  */
+.header {
+background-color: #17c574;
+padding: 15px 0;
+}
+.wrapper-header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+max-width: 100%;
+margin: 0 auto;
+}
+.header__logo {
+width: 90px;
+padding-left: 20px;
+}
+.nav-list {
+display: flex;
+list-style: none;
+justify-content: space-between;
+}
+.nav a {
+color: #0e0d0d;
+margin-right: 10px;
+text-decoration: none;
+font-weight: bold;
+text-decoration: none;
+padding: 0 10px;
+line-height: 30px;
+display: inline-block;
+position: relative;
+}
+.nav a::before {
+display: block;
+position: absolute;
+content: "";
+height: 2px;
+width: 0;
+background-color: #110907;
+transition: width .5s ease-in-out, left .5s ease-in-out;
+left: 50%;
+bottom: 0;
+}
+.nav a:hover::before {
+width: 100%;
+left: 0;
+}
+.nav a:hover {
+color: #074d2c;
+}
+/* main */
+.wrapper-main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 100%;
+}
+.section {
+background-color: #dfffe9;
+/* padding: 20px; */
+}
+.avatar {
+display: inline-block;
+height: 500px;
+}
+.main-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #dfffe9;
+}
+.main-title {
+margin: 0;
+padding: 0;
+font-size: 50px;
+line-height: 50px;
+font-weight: 600;
+}
+.main-subtitle {
+font-size: 25px;
+}
+/* section about-me */
+.section-title {
+background-color: #baf8db;
+position: relative;
+margin: 0;
+margin-bottom: 36px;
+padding-left: 60px;
+font-size: 24px;
+line-height: 36px;
+font-weight: 600;
+}
+.section-title::before {
+position: absolute;
+content: "";
+left: 0;
+top: 0;
+width: 20px;
+height: 36px;
+background-color: #1fb33f;
+}
+.text{
+margin: 0 56px 0 60px;
+padding-bottom: 35px;;
+}
+/* section education */
+.education__list, 
+.contacts__list,
+.skills__list,
+.languages__list,
+.project__list {
+margin: 10px 60px;
+padding: 0;
+padding-left: 20px;
+}
+.education,
+.contacts,
+.skills,  
+.experience, 
+.code, 
+.languages,
+.project  {
+margin-bottom: 54px;
+}
+/* section code */
+.code__block{
+background-color: #fae96833;
+padding: 20px 60px;
+width: 300px;
+margin-left: 40px;
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #17c574;
+  height: 50px;
+  gap: 300px; 
+  }
+  
+.footer__github {
+  display: flex;
+  align-items: center;      /* вертикальное выравнивание */
+   gap: 10px;               /* расстояние между картинкой и текстом */
+}
+
